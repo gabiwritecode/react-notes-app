@@ -26,6 +26,7 @@ function App() {
     <main className="h-screen my-8 flex gap-8">
       <ProjectsSidebar onStartAddProject={handleSelectedProject} />
       {content}
+      <p>delete later</p>
     </main>
   );
 }
