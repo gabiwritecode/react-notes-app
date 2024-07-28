@@ -6,8 +6,8 @@ export default function NewProject({ onAdd }) {
   const dueDate = useRef();
   function handleSave() {
     const enteredTitle = title.current.value;
-    const enteredDescription = title.current.value;
-    const enteredDueDate = title.current.value;
+    const enteredDescription = description.current.value;
+    const enteredDueDate = dueDate.current.value;
     onAdd({
       title: enteredTitle,
       description: enteredDescription,
